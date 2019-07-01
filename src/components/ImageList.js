@@ -1,4 +1,5 @@
 import React from 'react';
+import './ImageList.css'
 
 const ImageList = (props) => {
     /*straightforward*/
@@ -22,7 +23,7 @@ const ImageList = (props) => {
     });
 
     return (
-        <div className={"ui segment"}>
+        <div className={"image-list"}>
             {images}
         </div>
     );
